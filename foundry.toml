@@ -1,0 +1,17 @@
+[profile.default]
+src = 'src'
+out = 'out'
+libs = ['node_modules']
+remappings = [
+    '@account-abstraction/=node_modules/@account-abstraction/',
+    '@gnosis.pm/=node_modules/@gnosis.pm/',
+    '@openzeppelin/=node_modules/@openzeppelin/',
+    'ds-test/=node_modules/@account-abstraction/contracts/lib/forge-std/lib/ds-test/',
+    'eth-gas-reporter/=node_modules/eth-gas-reporter/',
+    'forge-std/=node_modules/@account-abstraction/contracts/lib/forge-std/',
+    'hardhat-deploy/=node_modules/hardhat-deploy/',
+    'hardhat/=node_modules/hardhat/',
+    'openzeppelin-contracts/=node_modules/@account-abstraction/contracts/lib/openzeppelin-contracts/',
+]
+
+# See more config options https://github.com/foundry-rs/foundry/tree/master/config
