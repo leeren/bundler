@@ -1,4 +1,4 @@
-node_modules
+node_modules/
 .env
 coverage
 coverage.json
@@ -19,5 +19,6 @@ tsconfig.tsbuildinfo
 /packages/bundler/deployments/
 **/dist/
 /packages/bundler/src/types/
+/packages/contracts/types/
 yarn-error.log
 .vscode
